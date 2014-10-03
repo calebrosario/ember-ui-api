@@ -1,0 +1,29 @@
+{
+  "name": "route",
+  "base": "PersistedModel",
+  "properties": {
+    "path": {
+      "type": "string",
+      "required": true
+    },
+    "resource": {
+      "type": "boolean"
+    },
+    "model": {
+      "type": "string"
+    },
+    "controller": {
+      "type": "string"
+    },
+    "parentRoute": {
+      "type": "string"
+    },
+    "childRoute": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

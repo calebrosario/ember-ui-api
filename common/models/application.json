@@ -1,0 +1,75 @@
+{
+  "name": "application",
+  "base": "PersistedModel",
+  "properties": {
+    "models": {
+      "type": [
+        "object"
+      ]
+    },
+    "controllers": {
+      "type": [
+        "object"
+      ]
+    },
+    "routes": {
+      "type": [
+        "object"
+      ]
+    },
+    "templates": {
+      "type": [
+        "object"
+      ]
+    },
+    "helpers": {
+      "type": [
+        "object"
+      ]
+    },
+    "views": {
+      "type": [
+        "object"
+      ]
+    },
+    "components": {
+      "type": [
+        "object"
+      ]
+    },
+    "initializers": {
+      "type": [
+        "object"
+      ]
+    },
+    "mixins": {
+      "type": [
+        "object"
+      ]
+    },
+    "serializers": {
+      "type": [
+        "object"
+      ]
+    },
+    "services": {
+      "type": [
+        "object"
+      ]
+    },
+    "transforms": {
+      "type": [
+        "object"
+      ]
+    },
+    "utils": {
+      "type": [
+        "object"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}

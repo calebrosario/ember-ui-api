@@ -1,0 +1,22 @@
+{
+  "name": "object",
+  "base": "PersistedModel",
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "fields": {
+      "type": [
+        "object"
+      ]
+    },
+    "extends": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
